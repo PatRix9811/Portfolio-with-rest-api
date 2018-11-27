@@ -1,0 +1,15 @@
+{% extends "start.html" %}
+
+{% block 'content' %}
+			{% if chose_registration %}
+				{% for reg in chose_registration %}
+					<div id="reg_title">
+						<h1>{{ reg.registration_title }}</h1>
+					</div>
+
+					<div id="reg_text">
+						{{ reg.registration_text }}
+					</div>
+				{% endfor %}
+			{% endif %}
+{% endblock %}

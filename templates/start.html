@@ -1,0 +1,25 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'start/style.css' %}">
+{% block 'head' %}
+{% endblock %}
+
+<div id="content">
+	<div id="head">
+		<!--<img src="{% static 'blog/images/eagle.png' %}" style="float: left"> -->
+		<div id="name">
+			Patryk Wójtowicz</br>
+			<a href="{% url 'blog:index' %}"><div class="menu_item">About me</div></a>
+			<a href="{% url 'blog:cpp' %}"><div class="menu_item">C++</div></a>
+			<a href="{% url 'blog:python' %}"><div class="menu_item">Python</div></a>
+			<a href="https://github.com/PatRix9811?tab=repositories" target="blank"><div class="menu_item">GitHub</div></a>
+			<a href="{% url 'blog:contact' %}"><div class="menu_item">Contact</div></a>
+			<div style="clear: both;"></div>
+		</div>
+		<img id="photo" src="{% static 'start/images/foto.jpg' %}">
+	</div>
+
+	<div id="registration">
+		{% block 'content' %}
+		{% endblock %}
+	</div>
+</div>

@@ -1,0 +1,97 @@
+body
+{
+	background-color: 444444;
+	color:#81A18A;
+}
+
+#head
+{
+	height: 150px;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 1px 1px white;
+}
+
+#name
+{
+	margin-top: auto; 
+	margin-bottom: auto;
+	float: left;
+	margin-left:auto;
+	padding: 20px;
+}
+
+img
+{
+	width: auto;
+	height: 150px;
+	transition: width 2s ,height 2s;
+}
+
+img:hover
+{
+	height: 188px;
+}
+
+#photo
+{
+	
+	clear: both;
+}
+
+.menu_item
+{
+	font-size: 20px;
+	width:30%;
+	float: left;
+	padding-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	transition: widht 2s;
+	padding-left:0px;
+}
+
+
+#content
+{
+	background-color: /*#008822*/ #555555;
+	margin-left: auto;
+	margin-right: auto;
+	border-left:solid  1px #A1A1A1;
+	border-right:solid  1px #A1A1A1;
+	width: 80%;
+}
+
+#reg_title
+{
+	margin-top: 40px;
+	text-shadow: 1px 1px #000055;
+	font-size:20px;
+	border-top: dashed 1px #A1A1A1;
+	border-bottom: solid 1px #A1A1A1;
+	padding-left:10px;
+}
+
+#reg_text
+{
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 1px 1px #000055;
+	border-bottom: dashed 1px #A1A1A1;
+	color:#81A18A;
+}
+
+a:visited
+{
+	color:#81A18A;
+}
+
+a:link
+{
+	color:#81A18A;
+}
+
+a:hover
+{
+	color:#54695A;
+}
